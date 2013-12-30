@@ -1,0 +1,29 @@
+{
+    "name": "nuked-klan/nuked-module-wars",
+    "description": "Wars module for Nuked Klan project",
+    "version": "1.7.9",
+    "type": "nuked-module",
+    "keywords": ["nuked", "module", "wars"],
+    "homepage": "http://www.nuked-klan.org/",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Nuked-Klan Team",
+            "homepage": "http://www.nuked-klan.org/",
+        },
+        {
+            "name": "Adrien Loyant",
+            "email": "donald_duck@team-df.org",
+            "role": "Package maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "target-dir": "modules/wars",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
